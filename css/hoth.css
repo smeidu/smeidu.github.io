@@ -57,7 +57,7 @@ h5 {font-size: 18px; font-family: 'adelle';}
 }
 
 .loud {
-  font-size: 1.25em; line-height: 1.75em; font-family: 'adelle'; margin-bottom: -20px;
+  font-size: 1.25em; line-height: 1.75em; font-family: 'adelle'; margin-bottom: 20px;
 }
 
 .half {opacity: .5; font-size: 13px;}
@@ -81,13 +81,13 @@ h5 {font-size: 18px; font-family: 'adelle';}
 }
 
 .firstchunk>p:first-of-type:first-letter {
-  font-size: 45px;
-  line-height: 55px;
-  }
+  font-size: 65px;
+  line-height: 35px;
+}
 
-  .firstchunk>p:first-of-type:first-letter {
+.firstchunk>p:first-of-type:first-letter {
     float: left;
-    font-size: 115px;
+    font-size: 132px;
     font-family: 'adelle', sans-serif;
     padding-top: 0px;
     padding-right: 9px;
@@ -95,7 +95,7 @@ h5 {font-size: 18px; font-family: 'adelle';}
     -webkit-font-smoothing: subpixel-antialiased;
     font-style: normal;
     font-weight: bold;
-    }  
+}  
 
 a, a:visited {
 	color: var(--dark);
@@ -250,6 +250,48 @@ section {
     .footername {font-size: 1.0em; font-weight:600; margin-bottom: 0.0em; padding-top: 10px;}
     footer nav ul li { display: inline; margin-left: 0; margin-right: 0.8em; margin-bottom: 2em; }
 
+
+
+
+
+
+
+.abstandU {margin-bottom: 01em;}
+
+.project-teaser {
+  height: 220px;
+  padding: 20px 15px 10px 15px;
+  margin-top: 0px;
+}
+
+.teaser-clara {
+  background-color: #EDEFFA;
+  color: #4F61C8;
+}
+
+.teaser-CPHSignals {
+  background-color: #99C1CD;
+  color: #333;
+}
+
+.teaser-BlindMaps {
+  display: block;
+  background-color: #D0D0D1;
+  color: #333;
+  background: url(../img/test.png);
+  background-size: 320px 250px;
+}
+
+
+.fame {
+  background-color: #f6f6f6;
+}
+
+
+
+
+
+
 /* For big screens */  
 
 @media ( min-width: 550px ) {
@@ -306,36 +348,11 @@ section {
   .footerleft {width: 50%; display:block; float:left;}
   .footerright {max-width: 50%; float: right; display: block; opacity: 1;}
   footer nav ul li { display: inline; margin-left: 0.8em; margin-right: 0; }
+  .abstandU {margin-bottom: 0em;} 
 
 }
 
 
-.project-teaser {
-  height: 220px;
-  padding: 20px 15px 10px 15px;
-  margin-top: 0px;
-}
-
-.teaser-clara {
-  background-color: #EDEFFA;
-  color: #4F61C8;
-}
-
-.teaser-CPHSignals {
-  background-color: #99C1CD;
-  color: #333;
-}
-
-.teaser-BlindMaps {
-  display: block;
-  background-color: #D0D0D1;
-  color: #333;
-  background: url(../img/test.png);
-  background-size: 320px 250px;
-}
 
 
-.fame {
-  background-color: #f6f6f6;
-}
 
