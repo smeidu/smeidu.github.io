@@ -187,7 +187,7 @@ section {
       text-indent: -9999px;
       width: 150px;
       height: 52px;
-      background: url(../_img/smeidu_logodark.svg);
+      background: url(../img/smeidu_logodark.svg);
       background-size: 150px 52px;
       margin: 0 auto;
       margin-top: 0.5em;
@@ -330,7 +330,7 @@ section {
   display: block;
   background-color: #D0D0D1;
   color: #333;
-  background: url(../_img/test.png);
+  background: url(../img/test.png);
   background-size: 320px 250px;
 }
 
