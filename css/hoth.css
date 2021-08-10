@@ -228,7 +228,7 @@ section {
 
   .basetemplate p {margin-bottom: 3em;}
 
-  ul {
+  .container ul {
     list-style: circle;
     margin-left: 2em;
     list-style-position: outside;
