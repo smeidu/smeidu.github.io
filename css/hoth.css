@@ -107,7 +107,7 @@ a:hover {
 	text-decoration: none;
 }
 
-img { max-width: 100%; width: 100%; height: auto; border-radius: 5px; }
+img { max-width: 100%; width: 100%; height: auto; border-radius: 0px; }
 .photo img { border: 0 solid #666; }
 iframe { margin-bottom: 0em; border: none; overflow: hidden; width: 100%; max-width: 100%; }
 .nodisplay { display: none; }
@@ -167,6 +167,10 @@ section {
     justify-content: center;
     align-items: center;
     }
+
+  .photoproject { 
+      padding-top: 0em;
+      }
 
 
   hr { 
