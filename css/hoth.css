@@ -262,6 +262,7 @@ section {
     .footername {font-size: 1.0em; font-weight:600; margin-bottom: 0.0em; padding-top: 10px;}
     footer nav ul li { display: inline; margin-left: 0; margin-right: 0.8em; margin-bottom: 2em; }
 
+.footerright {margin-bottom: 2em;}
 
 
 
@@ -363,6 +364,8 @@ section {
   .abstandU {margin-bottom: 0em;} 
 
 }
+
+
 
 
 
