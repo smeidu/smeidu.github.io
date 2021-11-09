@@ -170,6 +170,8 @@ section {
 
   .photoproject { 
       padding-top: 0em;
+      padding-bottom: 0em;
+      border-bottom: 0px;  
       }
 
 
@@ -362,6 +364,8 @@ section {
   .footerright {max-width: 50%; float: right; display: block; opacity: 1;}
   footer nav ul li { display: inline; margin-left: 0.8em; margin-right: 0; }
   .abstandU {margin-bottom: 0em;} 
+
+  .jsgallery {padding-bottom: 10px;};
 
 }
 
