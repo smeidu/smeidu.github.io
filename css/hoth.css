@@ -191,7 +191,8 @@ section {
   .gallerybelow { 
       padding-bottom: 0em;
       border-bottom: 0px;  
-      }      
+      }   
+  .MoreTopSpace {padding-top: 1.7em;}       
 
 
   hr { 
