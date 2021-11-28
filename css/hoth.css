@@ -57,7 +57,7 @@ h5 {font-size: 18px; font-family: 'adelle';}
 }
 
 .loud {
-  font-size: 1.25em; line-height: 1.75em; font-family: 'adelle'; margin-bottom: 20px;
+  font-size: 1.25em; line-height: 1.75em; font-family: 'adelle'; margin-bottom: 6px;
 }
 
 .half {opacity: .5; font-size: 13px;}
@@ -111,6 +111,16 @@ img { max-width: 100%; width: 100%; height: auto; border-radius: 0px; }
 .photo img { border: 0 solid #666; }
 iframe { margin-bottom: 0em; border: none; overflow: hidden; width: 100%; max-width: 100%; }
 .nodisplay { display: none; }
+
+/* Tables */
+
+tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+th, td {
+  padding: 15px;
+}
 
 /* Grid */
 
@@ -362,10 +372,12 @@ section {
 
   .footerleft {width: 50%; display:block; float:left;}
   .footerright {max-width: 50%; float: right; display: block; opacity: 1;}
-  footer nav ul li { display: inline; margin-left: 0.8em; margin-right: 0; }
+  footer nav ul li { display: inline; margin-left: 0.8em; margin-right: 0;}
   .abstandU {margin-bottom: 0em;} 
 
-  .jsgallery {padding-bottom: 10px;};
+  .jsgallery {padding-bottom: 10px;}
+
+  .crazy {padding-top: 55px;}
 
 }
 
