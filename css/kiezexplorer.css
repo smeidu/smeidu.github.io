@@ -77,7 +77,7 @@ hr {
 
 /* Article */ 
 
-  h2 {color:#E7DE17; font-weight: 700; font-size: 2.8em; text-shadow: 1px 1px 1px #000;}
+  h2 {color:#E7DE17; font-weight: 700; font-size: 2.8em; text-shadow: 1px 1px 1px #000; line-height: 1.2em; margin-bottom: 0.1em;}
 
   .basetemplate p {margin-bottom: 3em;}
 
@@ -224,5 +224,25 @@ hr {
   height: 385px;
   background: url(../img/app_page_demo_device.png);
   padding: 126px 26px 119px;
+}
+
+#app_page_bottom {
+  background-image: url(../kiezexplorer/app_page_trennlinie.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 2px;
+}
+
+.txsh {
+  text-shadow: 1px 1px 1px #000;
+  background-image: url(../kiezexplorer/app_page_bg.png);
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.sblcofo {
+  font-weight: 100;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 0px #000;
 }
 
