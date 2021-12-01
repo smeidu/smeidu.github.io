@@ -1,0 +1,21 @@
+body {background-color: #f3f1ee;}
+.flyingintro {text-align: center;}
+.flyingintro p {width:80%; margin-left: auto; margin-right: auto;}
+.flyinglogo {width: 30%; height:30%; text-align: center;}
+
+.phone {
+    top: -8rem;
+    right: 5rem;
+    max-width: 80%;
+    z-index: 3;
+    float: left;
+}
+
+.phone2 {
+    display: block;
+    top: -6rem;
+    right: 0;
+    max-width: 73.8%;
+    z-index: 2;
+    float:right;
+}
