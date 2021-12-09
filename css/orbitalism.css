@@ -1,0 +1,15 @@
+.flyingintro {text-align: center;}
+.flyingintro p {width:80%; margin-left: auto; margin-right: auto;}
+.ologo {width: 237px; height:248px;}
+h3 {
+    margin-top: 0em; 
+    margin-bottom: .75em;
+    font-weight: 100;
+}
+
+.twelvsep {border-bottom: 1px solid var(--dark); margin-top: 2em; margin-bottom: 2em; opacity: 0.25;} 
+
+@media ( min-width: 550px ) {
+    .flyinglogo {width: 30%; height:30%;}
+}
+
