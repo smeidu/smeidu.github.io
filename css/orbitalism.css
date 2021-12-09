@@ -1,10 +1,20 @@
 .flyingintro {text-align: center;}
 .flyingintro p {width:80%; margin-left: auto; margin-right: auto;}
 .ologo {width: 237px; height:248px;}
+h2 {
+    font-family: p22-underground,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    font-size: 2.2em;
+}
 h3 {
+    font-family: p22-underground,sans-serif;
+    font-weight: 100;
+    font-style: normal;
     margin-top: 0em; 
     margin-bottom: .75em;
-    font-weight: 100;
+    font-size: 1.5em;
 }
 
 .twelvsep {border-bottom: 1px solid var(--dark); margin-top: 2em; margin-bottom: 2em; opacity: 0.25;} 
