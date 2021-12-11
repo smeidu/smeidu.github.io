@@ -188,7 +188,7 @@ section {
   .six.photo, .one-half.photo       { grid-column: span 6; }
   .eight.photo, .two-thirds.photo   { grid-column: span 8; }
 
-  .contents           { grid-column: span 12; text-align: center; }
+  .contents {grid-column: span 12; text-align: center;}
 
   .photo { 
     display: flex;
@@ -196,15 +196,24 @@ section {
     align-items: center;
     }
 
-  .photoproject { 
+.photoproject { 
       padding-top: 0em;
+      padding-bottom: 8px;
+      border-bottom: 0px;  
+}
+.gallerybelow { 
       padding-bottom: 0em;
       border-bottom: 0px;  
-      }
-  .gallerybelow { 
-      padding-bottom: 0em;
-      border-bottom: 0px;  
-      }   
+}   
+
+.photographygallery {
+  border-bottom: 0px solid;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+
+
   .MoreTopSpace {padding-top: 1.7em;}       
 
 
