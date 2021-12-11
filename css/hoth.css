@@ -196,11 +196,14 @@ section {
     align-items: center;
     }
 
+
+/* styling of the photogallery section */    
 .photoproject { 
       padding-top: 0em;
-      padding-bottom: 8px;
+      padding-bottom: 0px;
       border-bottom: 0px;  
 }
+
 .gallerybelow { 
       padding-bottom: 0em;
       border-bottom: 0px;  
@@ -210,11 +213,19 @@ section {
   border-bottom: 0px solid;
   padding-bottom: 0em;
   margin-bottom: 0em;
+  line-height: 1em;
+  padding-top: 0em;
+  grid-gap: calc(0.0em + 1vw) calc(0em + 1vw); 
+}
+
+.photogallinfodrunter {
+  padding-top: 0em;
 }
 
 
 
-  .MoreTopSpace {padding-top: 1.7em;}       
+
+.MoreTopSpace {padding-top: 1.7em;}       
 
 
   hr { 
@@ -407,10 +418,12 @@ section {
   footer nav ul li { display: inline; margin-left: 0.8em; margin-right: 0;}
   .abstandU {margin-bottom: 0em;} 
 
-  .jsgallery {padding-bottom: 10px;}
+  .jsgallery {padding-bottom: 0px;}
 
   .crazy {padding-top: 55px;}
   .addEMmargtop {margin-top: 1.5em;}
+
+  .photoproject {padding-bottom: 8px;}
 
 }
 
