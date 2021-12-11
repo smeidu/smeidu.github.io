@@ -62,6 +62,7 @@ h5 {font-size: 18px; font-family: 'adelle';}
 }
 
 .movieintro {text-align: center; font-weight: 100; font-size: 1.5em; line-height: 150%;}
+.addEMmargtop {margin-top: 1em;}
 
 
 .caption {
@@ -156,7 +157,7 @@ section {
       grid-template-columns: repeat(12, 1fr);
       border-bottom: 1px solid var(--dark); 
       padding-bottom: 2em; 
-      padding-top: 2em;
+      padding-top: 1.5em;
       }
 
       section p {  
@@ -346,7 +347,7 @@ section {
   section { 
     grid-gap: calc(0.25em + 1vw) calc(1em + 1vw);
     padding-bottom: 2em; 
-    padding-top: 2em;
+    padding-top: 1.5em;
     }
 
 
@@ -400,6 +401,7 @@ section {
   .jsgallery {padding-bottom: 10px;}
 
   .crazy {padding-top: 55px;}
+  .addEMmargtop {margin-top: 1.5em;}
 
 }
 
