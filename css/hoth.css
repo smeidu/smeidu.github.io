@@ -338,21 +338,33 @@ section {
 }
 
 .teaser-clara {
-  background-color: #EDEFFA;
-  color: #4F61C8;
+  background-color: #F9E1D8;
+  color: #333;
+  background-image: url(../img/clara_logo.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size: cover;
+  background-size: 210px 210px;  
 }
 
-.teaser-CPHSignals {
-  background-color: #99C1CD;
-  color: #333;
+.teaser-google {
+  background-color: #262629;
+  color: #939393;
+  background-image: url(../img/google_logo.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size: cover;
+  background-size: 210px 207px;
 }
 
 .teaser-BlindMaps {
   display: block;
   background-color: #D0D0D1;
   color: #333;
-  background: url(../img/test.png);
-  background-size: 320px 250px;
+  background: url(../img/test2.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size: 640px 251px;
 }
 
 
