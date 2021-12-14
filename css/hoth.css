@@ -125,7 +125,6 @@ img { max-width: 100%; width: 100%; height: auto; border-radius: 0px; }
 .photo img { border: 0 solid #666; }
 iframe { margin-bottom: 0em; border: none; overflow: hidden; width: 100%; max-width: 100%; }
 .nodisplay { display: none; }
-
 .megalink a:hover { color: var(--dark); background: rgba(0,0,0,0.10); }
 .promolink {display: block; text-align: center; width: 100%; padding-top: 20px; padding-bottom: 20px; font-size: 1.1em; text-decoration: none; font-weight: 100; background-color: #f6f6f6;}
 .promolink a:hover {background-color: #000; text-decoration: dotted;}
