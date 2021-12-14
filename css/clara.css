@@ -1,0 +1,10 @@
+/*body {background-color: #F9E1D8;}*/
+.flyingintro {text-align: center;}
+.flyingintro p {width:80%; margin-left: auto; margin-right: auto;}
+.flyinglogo {width: 50%; height:50%; text-align: center;}
+
+/* For big screens */  
+
+@media ( min-width: 550px ) {
+    .flyinglogo {width: 30%; height:30%;}
+}
