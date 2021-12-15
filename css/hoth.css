@@ -331,10 +331,76 @@ section {
 
 .abstandU {margin-bottom: 01em;}
 
+
+.teaser-inner-header {
+padding: 20px 15px 10px 15px;
+height: 220px;
+background-color: #F9E1D8;
+background-image: url(../img/clara_logo.png);
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */ 
+background-size: cover;
+background-size: 210px 210px; 
+}
+.teaser-inner-header:hover {background-color: #F4C3B1;}
+.teaser-inner a {text-decoration: none;}
+
+.teaser-google-header {
+  padding: 20px 15px 10px 15px;
+  height: 220px;
+  background-color: #3b3b3d;
+  background-image: url(../img/google_logo.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size: cover;
+  background-size: 210px 210px; 
+  color: #939393;
+}
+.teaser-google-header:hover {background-color: #262629; color: #c0c0c0;}
+.teaser-google a {text-decoration: none;}
+
+.teaser-blindmaps-header {
+  padding: 20px 15px 10px 15px;
+  height: 220px;
+  background-color: #D0D0D1;
+  color: #333;
+  background: url(../img/test2.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */ 
+  background-size: 640px 251px;
+  }
+  .teaser-blindmaps-header:hover {background-color: #a0a0a0; color: #000;}
+  .teaser-blindmaps a {text-decoration: none;}
+
+
+
+
+
+
+
+
+
+.test-link a {
+  display: inline;
+  text-decoration: none; 
+  width: 300px; 
+  background-color: #F9E1D8;
+  padding: 15px 22px 15px 22px;
+}
+
+
 .project-teaser {
   height: 220px;
   padding: 20px 15px 10px 15px;
   margin-top: 0px;
+}
+
+.project-teaser a {
+  display: inline;
+  text-decoration: none; 
+  width: 100%; 
+  height: 220px; 
+  background-color: #F9E1D8;
 }
 
 .teaser-clara {
