@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Clara - Test Landingpage for Pilotphase</title>
+	<meta charset="UTF-8" />
+	<meta name="robots" content="noindex" />
+	<link rel="stylesheet" href="hoth.css" media="screen">	
+	<link rel="stylesheet" href="clara.css" media="screen">	
+    <link rel="stylesheet" href="https://use.typekit.net/imt0azi.css">
+	<meta name="title" content="Clara - Test Landingpage for Pilotphase">
+
+	<script>
+		function redirectByMobileOS() {
+		  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+		
+		//for Android
+			if (/android/i.test(userAgent)) {
+				window.location.href = "https://play.google.com/store/apps/details?id=at.erstebank.george&hl=de_AT&gl=US";
+			}
+		
+		//For iPhone / iPad / iPod  (iOS
+			if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+				window.location.href = "https://apps.apple.com/at/app/george-%C3%B6sterreich/id947829367";
+			}
+		}
+		</script>
+
+</head>
+
+<body id="PageAbout" onload="redirectByMobileOS()">
+
+<!-- header -->
+<header class="container">
+	<nav class="nav">    
+	<ul><li>This is a test-site to understand the needed langinpage for BETA Pilotlaunch. Auto-Forwarding from QR Code into Stores and alternativly displaying a landingpage with Store Links and info-content on desktop.</li></ul>
+	</nav>
+
+</header>
+
+<!-- article --> 	
+<article class="container">
+    
+<section id="Contact">
+    <h2 class="nodisplay">Clara</h2>
+
+	<div class="seven columns abstandU flyingintro">
+		<img class="claralogo" src="alles-clara_logo.svg" alt="ClaraLogo">
+		<p><strong>Alles Clara - Pilotphase</strong></p>
+		<p><span class="sblcofo">Mitarbeiter ausgewählter Unternehmen können am Alles Clara Pilotprogramm teilnehmen<br>(Zugangscode benötigt). </span></p>
+		<p><a href="https://apps.apple.com/at/app/george-%C3%B6sterreich/id947829367"><img class="store" src="appstore.png" width="180px"></a></p>
+		<p><a href="https://play.google.com/store/apps/details?id=at.erstebank.george&hl=de_AT&gl=US"><img class="store" src="playstore.png" width="180px"></a></p>
+	</div> 
+    <div class="five columns"> 
+		<img class="phone3" src="alles-clara_apppromo.png">
+	</div>
+	<div class="twelve columns"> 
+		<h3>Pilotphase</h3>
+	</div>	
+	<div class="six columns"><p>Clara startet in die Pilotphase. Mit deiner Teilnahme an dieser kannst du bereits die wichtigsten Funktionen von Clara testen und hilfst zudem, die App für die Bedürfnisse künftiger NutzerInnen weiterzuentwickeln. Die BeraterInnen bei Clara haben langjährige Erfahrung und kommen aus unterschiedlichen Bereichen, wie Pflege, Sozialarbeit oder Psychologie.  So erhalten die Angehörigen Unterstützung bei Herausforderungen im Alltag.  </p></div>
+	<div class="six colums"><img src="clara_illu2.png"></div>
+
+
+	<div class="twelve columns">
+	<h3>Wie sieht die Pilotphase von Clara aus?</h3>
+	</div>
+	
+	<div class="six columns">
+	<p>Nach der erfolgreichen Installation der App bekommst du: </p>
+	<ul>
+		<li>die Möglichkeit, alle Funktionen von Clara schon jetzt zu nutzen. </li>
+		<li>Unterstützung von professionellen BeraterInnen aus den Bereichen Pflege und Psychologie.</li>
+		<li>konkrete Antworten auf deine Fragen und Hilfestellungen bei deinen Herausforderungen im Umgang mit deiner dir nahestehenden Person.</li>
+		<li>die Chance, Feedback zur App zu geben und so einen wesentlichen Teil zur Entwicklung von Clara beizutragen.</li>
+	</ul>	
+	</div>
+
+	<div class="six columns">
+		<p>In der Pilotphase hilfst du dem Team von Clara, weil: </p>
+		<ul>
+			<li>dein Feedback ernst genommen und in die App integriert wird. </li>
+			<li>du somit einen aktiven Beitrag zur Weiterentwicklung der Clara App leisten kannst. </li>
+			<li>dein Nutzungsverhalten dazu beiträgt herauszufinden, welche Kompetenzen auf Seiten der BeraterInnen besonders wichtig sind. </li>
+			<li>Clara nur besser werden kann, wenn die App von realen Situationen lernt. </li>
+		</ul>	
+		</div>
+
+	<div class="six colums"><img src="client-app_01.jpg"></div>
+	<div class="six colums"><img src="client-app_02.jpg"></div>
+	<div class="twelve columns">
+	<h3>Noch Fragen?</h3>	
+	<p>Solltest du vorab noch Fragen zur Pilotphase haben, schreib einfach eine E-Mail an info@alles-clara.at</p>
+    </div>
+
+</section>
+</article>	
+
+<!-- footer -->
+<footer class="container">
+	<div class="footerleft">
+		<p class="footername">Test Footer</p>
+		<p>Two Next GmbH</p>
+	</div>
+	<div class="footerright">
+		<nav>
+			<ul>
+				<li>Imprint</a></li>
+				<li>Privacy Policy</a></li>
+			</ul>
+		</nav>
+	</div>	
+	</footer>
+
+</body>
+</html>

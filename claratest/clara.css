@@ -1,0 +1,11 @@
+/*body {background-color: #F9E1D8;}*/
+.flyingintro {text-align: center;}
+.flyingintro p {width:90%; margin-left: auto; margin-right: auto;}
+.claralogo {width: 136px; height:151px; text-align: center;}
+.store {width: 180px; text-align: center;}
+
+/* For big screens */  
+
+@media ( min-width: 550px ) {
+    
+}
