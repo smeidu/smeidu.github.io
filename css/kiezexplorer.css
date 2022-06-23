@@ -244,5 +244,23 @@ hr {
   font-weight: 100;
   font-size: 1.2em;
   text-shadow: 0px 0px 0px #000;
+  padding-bottom: 0px;
 }
 
+.videoteas {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 24px;
+  margin-bottom: 16px;
+}
+
+.videoteas img {
+  border: 4px solid #e7de17;
+}
+
+.videolink {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
